@@ -1,0 +1,40 @@
+{
+  "name": "daily-diet-api",
+  "version": "1.0.0",
+  "description": "A diet monitor api",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brennon-Oliveira/Daily-Diet-API.git"
+  },
+  "keywords": [
+    "Daily",
+    "Diet",
+    "typescript",
+    "api"
+  ],
+  "author": "Brennon Gabriel de Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brennon-Oliveira/Daily-Diet-API/issues"
+  },
+  "homepage": "https://github.com/Brennon-Oliveira/Daily-Diet-API#readme",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.10.0",
+    "eslint": "^8.57.1"
+  }
+}
